@@ -1,0 +1,32 @@
+{
+  "nowcast_features": [
+    "latitude",
+    "longitude",
+    "temperature_celsius",
+    "wind_kph",
+    "pressure_mb",
+    "humidity",
+    "visibility_km",
+    "hour",
+    "month",
+    "air_quality_Carbon_Monoxide",
+    "air_quality_Ozone",
+    "air_quality_Nitrogen_dioxide",
+    "air_quality_Sulphur_dioxide"
+  ],
+  "forecast_features": [
+    "latitude",
+    "longitude",
+    "temperature_celsius",
+    "wind_kph",
+    "pressure_mb",
+    "humidity",
+    "visibility_km",
+    "hour",
+    "month",
+    "air_quality_Carbon_Monoxide",
+    "air_quality_Ozone",
+    "air_quality_Nitrogen_dioxide",
+    "air_quality_Sulphur_dioxide"
+  ]
+}

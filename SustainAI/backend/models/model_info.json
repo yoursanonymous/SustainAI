@@ -1,0 +1,11 @@
+{
+  "python": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "sklearn": "1.6.1",
+  "lightgbm": "4.6.0",
+  "xgboost": "2.1.4",
+  "timestamp_utc": "2025-10-19T15:10:01.986852+00:00",
+  "random_state": 42,
+  "best_nowcast_model": "LGB (tuned+ES)",
+  "best_forecast_model": "XGB (tuned+ES)"
+}

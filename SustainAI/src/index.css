@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+    @apply bg-gray-100 text-gray-800;
+}
+
+.sidebar {
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        transform: translateX(0);
+    }
+}
+
+.main-content {
+    transition: margin-left 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .main-content {
+        margin-left: 16rem;
+        /* Match sidebar width */
+    }
+}
+
+.aqi-chart-container {
+    display: flex;
+    height: 128px;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.aqi-bar {
+    flex: 1;
+    background-color: #4CAF50;
+    transition: height 0.5s ease-in-out;
+    border-radius: 4px;
+}
+
